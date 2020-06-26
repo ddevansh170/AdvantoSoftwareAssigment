@@ -1,0 +1,835 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Xobin</title>
+
+<link rel='stylesheet' id='wp-block-library-css'  href='https://xobin.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pdfemb-gutenberg-block-backend-js-css'  href='https://xobin.com/wp-content/plugins/pdf-embedder/css/pdfemb-blocks.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bcct_style-css'  href='https://xobin.com/wp-content/plugins/better-click-to-tweet/assets/css/styles.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://xobin.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='geotarget-css'  href='https://xobin.com/wp-content/plugins/geotargeting/public/css/geotarget-public.css?ver=1.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='saaspot-elementor-css'  href='https://xobin.com/wp-content/plugins/saaspot-core/elementor/assets/css/saaspot-elementor.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css'  href='https://xobin.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2002' type='text/css' media='all' />
+<link rel='stylesheet' id='wpc-style-css'  href='https://xobin.com/wp-content/plugins/wp-courses/css/style.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-icons-css'  href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://xobin.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/animate.min.css?ver=3.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-icons-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/themify-icons.min.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='linea-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/linea.min.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='loaders-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/loaders.min.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/magnific-popup.min.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nice-select-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/nice-select.min.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/owl.carousel.min.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='meanmenu-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/meanmenu.css?ver=2.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/bootstrap.min.css?ver=4.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='saaspot-style-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/styles.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='saaspot-responsive-css'  href='https://xobin.com/wp-content/themes/saaspot/assets/css/responsive.css?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-style-css'  href='https://xobin.com/wp-content/themes/saaspot/inc/dynamic-style.php?ver=1.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='saaspot-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C600%2C700%2C800%7CMontserrat%3A300%2C400%2C500%2C600%2C700%2C800&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='pscrollbar-css'  href='https://xobin.com/wp-content/plugins/quadmenu/assets/frontend/pscrollbar/perfect-scrollbar.min.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='owlcarousel-css'  href='https://xobin.com/wp-content/plugins/quadmenu/assets/frontend/owlcarousel/owl.carousel.min.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-normalize-css'  href='https://xobin.com/wp-content/plugins/quadmenu/assets/frontend/css/quadmenu-normalize.min.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-widgets-css'  href='https://xobin.com/wp-content/uploads/saaspot/quadmenu-widgets.css?ver=1585641352' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-css'  href='https://xobin.com/wp-content/plugins/quadmenu/assets/frontend/css/quadmenu.min.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-locations-css'  href='https://xobin.com/wp-content/uploads/saaspot/quadmenu-locations.css?ver=1585641350' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://xobin.com/wp-includes/css/dashicons.min.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://xobin.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=2.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://xobin.com/wp-content/uploads/elementor/css/global.css?ver=1584529236' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-10669-css'  href='https://xobin.com/wp-content/uploads/elementor/css/post-10669.css?ver=1592218365' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFira+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFira+Sans+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://xobin.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.9.0' type='text/css' media='all' />
+
+<style>.wpc-button { 
+        background-color: #23d19f; 
+        border-color: #12ad80; 
+        color: #fff; 
+    }.wpc-button:hover { 
+        background-color: #12ad80; 
+        border-color: #12ad80; 
+        color: #fff; 
+    }.wpc-button.active { 
+        background-color: #009ee5; 
+        border-color: #027fb7; 
+        color: #fff; 
+    }.course-category-list ul a { color: #fff; }.course-category-list ul a:hover { color: #fff; }.course-category-list ul a.active { color: #fff; }</style>
+
+
+</head>
+<body>
+
+	  <div class="saspot-topbar">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+          	<div class="free-trial">
+              <span class="trial-label">Read how our Customers maximize 'Quality-of-Hire'</span>
+              <a href="https://xobin.com/casestudy/beyondsquare-lateral-hiring-casestudy-with-xobin/?utm_source=homepage&amp;utm_medium=referral&amp;utm_campaign=promo" class="saspot-label">Read Now</a>
+            </div>        	</div> <!-- SaaSpotWP -->
+    <div class="col-md-6 textright">
+          	<ul class="saspot-top-menu-5ef516f19720d ">
+<li> <a href="https://xobin.com/contact-us/" > Contact Us </a> </li>
+<li> <a href="https://xobinhelp.freshdesk.com/support/home" > SUPPORT </a> </li>
+<li> <a href="https://app.xobin.com/signin" > LOGIN </a> </li></ul>        	</div> <!-- SaaSpotWP -->
+  </div>
+</div>
+
+
+  <!-- Header -->
+    <header class="saspot-header  saspot-sticky">
+    <div class="row align-items-center">
+      <div class="col-xl-5 col-lg-4 col-md-6 col-10">
+        <div class="saspot-brand" style="padding-top:2px;padding-bottom:2px;">
+  	<a href="https://xobin.com/">
+	<img src="https://xobin.com/wp-content/uploads/2019/11/Screenshot-2019-11-15-at-3.08.06-PM.png" alt="Xobin" class="default-logo normal-logo" width="150" height="30"></a>  </div>
+<div class="header-contact nice-select-two">
+  <ul>
+    <li></li> <!-- SaaSpotWP -->
+    <li><div class="header-contact-link">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <div class="disable-link"><span class="contact-label">CALL : </span><a href="tel:+12345678900">+1 (562) 317-8553</a></div>
+              <div class="contact-link-wrap">
+                <ul><li><span class="contact-label">US : </span> <a href="tel:+1 (562) 317-8553" > +1 (562) 317-8553 </a> </li><li><span class="contact-label">India : </span> <a href="tel:+1 (562) 317-8553" > (+91) 9003754583 </a> </li></ul>
+              </div>
+            </div></li> <!-- SaaSpotWP -->
+  </ul>
+  </div>
+      </div>
+      <div class="col-xl-7 col-lg-8 col-md-6 col-2">
+        <div class="header-right">
+          <!-- Navigation & Search -->
+<nav class="saspot-navigation" data-nav="1199">
+<ul id="menu-new-init" class="main-navigation"><li id="menu-item-12861" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12861 normal-style"><a  href="https://xobin.com/test-portfolio"><span class="menu-text">TEST PORTFOLIO</span></a></li>
+<li id="menu-item-5579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5579 normal-style"><a  href="/pricing"><span class="menu-text">PRICING</span></a></li>
+<li id="menu-item-3504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3504 normal-style has-dropdown"><a ><span class="menu-text">PRODUCTS</span></a>
+<ul class="dropdown-nav">
+	<li id="menu-item-3560" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3560 normal-style"><a  href="/products/pre-employment-skills-assessment-software"><span class="menu-text">Pre-Employment Skills Assessment Software</span></a></li>
+	<li id="menu-item-3561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3561 normal-style"><a  href="/products/coding-skills-assessment-software"><span class="menu-text">Coding Skills Assessment Software</span></a></li>
+	<li id="menu-item-3543" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3543 normal-style"><a  href="/products/coding-interview-software"><span class="menu-text">Coding Interview Software</span></a></li>
+	<li id="menu-item-5599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5599 normal-style"><a  href="/products/grey-ai-recruitment-software"><span class="menu-text">Grey AI Recruitment Software</span></a></li>
+	<li id="menu-item-3545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3545 normal-style"><a  href="https://xobin.com/products/psychometric-testing-software?customize_changeset_uuid=a81c93f5-2693-4813-b462-48673c9a3a9f&#038;customize_autosaved=on"><span class="menu-text">Psychometric Assessment Software</span></a></li>
+	<li id="menu-item-10596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10596 normal-style"><a  href="https://xobin.com/products/pre-recorded-video-interview-platform/"><span class="menu-text">Pre Recorded Video Interviewing Software</span></a></li>
+</ul>
+</li>
+</ul></nav> <!-- Container -->
+<div class="header-btn "><a href="https://xobin.com/pricing/"  class="saspot-btn saspot-border-btn saspot-medium-btn">Get Started</a><a href="https://xobin.com/request-demo/"  class="saspot-btn saspot-small-btn">Request Demo</a></div> <!-- SaaSpotWP -->
+
+        </div>
+      </div>
+    </div> <!-- Container -->
+  </header>
+  
+  
+      <div class="saspot-mid-wrap padding-default full-width" style="">
+	<div class="container">
+		<div class="row">
+						<div class="col-md-12">
+      						<div data-elementor-type="wp-page" data-elementor-id="10669" class="elementor elementor-10669" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-20b014d3 elementor-section-stretched elementor-section-full_width elementor-reverse-mobile elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="20b014d3" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3bcd3d1c elementor-column elementor-col-50 elementor-top-column" data-id="3bcd3d1c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-70715e80 elementor-widget elementor-widget-spacer" data-id="70715e80" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a483f6a elementor-widget elementor-widget-heading" data-id="a483f6a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Remote Hiring Solution for Screening &amp; Virtual Interviews</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2817ec2 elementor-widget elementor-widget-heading" data-id="2817ec2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Pre-Employment Testing Software to qualify the best talent 3x faster. Make smarter hiring decision and meet your recruitment goals. </p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1097f2a9 elementor-widget elementor-widget-spacer" data-id="1097f2a9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1e7c8f42 elementor-align-left elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="1e7c8f42" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://xobin.com/signup" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-angle-right"></i>			</span>
+						<span class="elementor-button-text">TRY FREE FOR 14 DAYS</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1478ff5 elementor-widget elementor-widget-text-editor" data-id="1478ff5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>*Fully featured 14 Day Trial. No Credit Card Required.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-2ec0b957 elementor-column elementor-col-50 elementor-top-column" data-id="2ec0b957" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-293da9d3 elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-image" data-id="293da9d3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="2048" height="1854" src="https://xobin.com/wp-content/uploads/2020/04/Bitmap-2048x1854.png" class="attachment-2048x2048 size-2048x2048" alt="" srcset="https://xobin.com/wp-content/uploads/2020/04/Bitmap-2048x1854.png 2048w, https://xobin.com/wp-content/uploads/2020/04/Bitmap-300x272.png 300w, https://xobin.com/wp-content/uploads/2020/04/Bitmap-1024x927.png 1024w, https://xobin.com/wp-content/uploads/2020/04/Bitmap-768x695.png 768w, https://xobin.com/wp-content/uploads/2020/04/Bitmap-1536x1391.png 1536w" sizes="(max-width: 2048px) 100vw, 2048px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-68441e0 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="68441e0" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-wide">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4d4bf9a2 elementor-column elementor-col-100 elementor-top-column" data-id="4d4bf9a2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-497b3813 elementor-widget elementor-widget-image" data-id="497b3813" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="146" src="https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-07-at-12.26.00-PM-1024x146.png" class="attachment-large size-large" alt="" srcset="https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-07-at-12.26.00-PM-1024x146.png 1024w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-07-at-12.26.00-PM-300x43.png 300w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-07-at-12.26.00-PM-768x110.png 768w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-07-at-12.26.00-PM-1536x220.png 1536w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-07-at-12.26.00-PM.png 1790w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1f2423ef elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1f2423ef" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3d47194e elementor-column elementor-col-100 elementor-top-column" data-id="3d47194e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2fbc8a80 elementor-widget elementor-widget-spacer" data-id="2fbc8a80" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ee86dae elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ee86dae" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2ae736e elementor-column elementor-col-100 elementor-top-column" data-id="2ae736e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3fc40bf elementor-widget elementor-widget-heading" data-id="3fc40bf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">OUR PRODUCTS</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6825e8f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6825e8f4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7189b88d elementor-column elementor-col-100 elementor-top-column" data-id="7189b88d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-763456f elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="763456f" data-element_type="widget" data-settings="{&quot;highlighted_text&quot;:&quot;Unlimited&quot;,&quot;marker&quot;:&quot;underline&quot;,&quot;headline_style&quot;:&quot;highlight&quot;}" data-widget_type="animated-headline.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-headline">
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">All <a href="/pricing">Products</a> comes with</span>
+						<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"></span>
+							<span class="elementor-headline-plain-text elementor-headline-text-wrapper">Assessments/Interviews & Candidate Invitation</span>
+					</h2>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6b50b84d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6b50b84d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3de7c4b elementor-column elementor-col-100 elementor-top-column" data-id="3de7c4b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1e6a866d elementor-widget elementor-widget-image" data-id="1e6a866d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1852" height="1076" src="https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-10-at-12.00.27-PM.png" class="attachment-full size-full" alt="" srcset="https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-10-at-12.00.27-PM.png 1852w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-10-at-12.00.27-PM-300x174.png 300w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-10-at-12.00.27-PM-1024x595.png 1024w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-10-at-12.00.27-PM-768x446.png 768w, https://xobin.com/wp-content/uploads/2020/04/Screenshot-2020-04-10-at-12.00.27-PM-1536x892.png 1536w" sizes="(max-width: 1852px) 100vw, 1852px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-23e5dcdf elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="23e5dcdf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-568c7142 elementor-column elementor-col-100 elementor-top-column" data-id="568c7142" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4cb9a90b elementor-widget elementor-widget-spacer" data-id="4cb9a90b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-534dfdc7 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="534dfdc7" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5244ac9e elementor-column elementor-col-50 elementor-top-column" data-id="5244ac9e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-623bc61d elementor-widget elementor-widget-vt-saaspot_image" data-id="623bc61d" data-element_type="widget" data-settings="{&quot;image_align&quot;:&quot;left&quot;}" data-widget_type="vt-saaspot_image.default">
+				<div class="elementor-widget-container">
+			<div class="saspot-image wow "><img src="https://xobin.com/wp-content/uploads/2020/04/Culture-Fit-Psychometric.png" alt=""></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-3e176e3 elementor-column elementor-col-50 elementor-top-column" data-id="3e176e3" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5ef84d0b elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-vt-saaspot_steps" data-id="5ef84d0b" data-element_type="widget" data-settings="{&quot;steps_btn_icon&quot;:&quot;fa fa-angle-right&quot;}" data-widget_type="vt-saaspot_steps.default">
+				<div class="elementor-widget-container">
+			<div class="step-info"><div class="step-subtitle">MOVE FROM PAPER PEN TESTS</div><h2 class="step-title">ONLINE ASSESSMENTS</h2><p>Online Assessment help you reduce your hiring time from 30 days to 5 days. With Xobin's unlimited assessment Invitations, you can broaden the top of your recruitment funnel to increase the quality of talent you shortlist.</p></div>		</div>
+				</div>
+				<section class="elementor-element elementor-element-6e42e489 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="6e42e489" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-42b60b1e elementor-column elementor-col-100 elementor-inner-column" data-id="42b60b1e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-72fc31d0 elementor-widget elementor-widget-vt-saaspot_list" data-id="72fc31d0" data-element_type="widget" data-widget_type="vt-saaspot_list.default">
+				<div class="elementor-widget-container">
+			<ul class="check-list"><li><a href="/products/pre-employment-skills-assessment-software/"><b>Pre-Employment Skills Assessment</b></a></li><li><a href="/products/coding-skills-assessment-software/"><b>Coding Skills Assessment</b></a></li><li><a href="/products/psychometric-testing-software"><b>Pre-Built Psychometric Tests</b></a></li><li><a href="/products/grey-ai-recruitment-software"><b>Grey AI - Customized Psychometric Tests</b></a></li></ul>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-66e30ab2 elementor-section-stretched elementor-section-full_width elementor-reverse-tablet elementor-reverse-mobile elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="66e30ab2" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-605ec8d2 elementor-column elementor-col-50 elementor-top-column" data-id="605ec8d2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cbf73cc elementor-widget elementor-widget-vt-saaspot_steps" data-id="cbf73cc" data-element_type="widget" data-settings="{&quot;steps_btn_icon&quot;:&quot;fa fa-angle-right&quot;}" data-widget_type="vt-saaspot_steps.default">
+				<div class="elementor-widget-container">
+			<div class="step-info"><div class="step-subtitle">ENGAGE WITH CANDIDATES LIKE NEVER BEFORE</div><h2 class="step-title">VIDEO INTERVIEWS</h2><p>Video Interviews ideally happen once you shortlist the candidate from the online assessments. Video Interviews help you cut down a lot of costs from your recruitment without compromising the quality of pre-hire engagement.</p></div>		</div>
+				</div>
+				<section class="elementor-element elementor-element-3b802d23 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="3b802d23" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7c8ba79b elementor-column elementor-col-100 elementor-inner-column" data-id="7c8ba79b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3faeb3ff elementor-widget elementor-widget-vt-saaspot_list" data-id="3faeb3ff" data-element_type="widget" data-widget_type="vt-saaspot_list.default">
+				<div class="elementor-widget-container">
+			<ul class="check-list"><li><a href="/products/coding-interview-software/"><b>Code Pairing and Live interviews</b></a></li><li><a href="/products/pre-recorded-video-interview-platform/"><b>Recorded Video Interview</b></a></li></ul>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-8cc26c5 elementor-column elementor-col-50 elementor-top-column" data-id="8cc26c5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4606dfae elementor-widget elementor-widget-vt-saaspot_image" data-id="4606dfae" data-element_type="widget" data-settings="{&quot;image_align&quot;:&quot;right&quot;}" data-widget_type="vt-saaspot_image.default">
+				<div class="elementor-widget-container">
+			<div class="saspot-image wow "><img src="https://xobin.com/wp-content/uploads/2020/04/Stratus-VideoInterview-1-1.png" alt=""></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6072ea2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6072ea2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-46134014 elementor-column elementor-col-100 elementor-top-column" data-id="46134014" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-75c36a2f elementor-widget elementor-widget-spacer" data-id="75c36a2f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9bbad24 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="9bbad24" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9e3e37e elementor-column elementor-col-100 elementor-top-column" data-id="9e3e37e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b8c8ed7 elementor-widget elementor-widget-heading" data-id="b8c8ed7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">RESOURCES</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3c5b5b5c elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3c5b5b5c" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-396216aa elementor-column elementor-col-100 elementor-top-column" data-id="396216aa" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-fa8cfb elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="fa8cfb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b925823 elementor-column elementor-col-20 elementor-top-column" data-id="b925823" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-20367388 elementor-column elementor-col-20 elementor-top-column" data-id="20367388" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-7d1c10b0 elementor-column elementor-col-20 elementor-top-column" data-id="7d1c10b0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3575c461 elementor-widget elementor-widget-divider" data-id="3575c461" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-85c5c7c elementor-column elementor-col-20 elementor-top-column" data-id="85c5c7c" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-53e04ace elementor-column elementor-col-20 elementor-top-column" data-id="53e04ace" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-718d970a elementor-section-content-middle elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="718d970a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1792f1a9 elementor-column elementor-col-33 elementor-inner-column" data-id="1792f1a9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-73ad14ca elementor-widget elementor-widget-image" data-id="73ad14ca" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="370" height="330" src="https://xobin.com/wp-content/uploads/2019/09/QaulityofHire2.jpg" class="attachment-large size-large" alt="" srcset="https://xobin.com/wp-content/uploads/2019/09/QaulityofHire2.jpg 370w, https://xobin.com/wp-content/uploads/2019/09/QaulityofHire2-300x268.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2099f3d9 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="2099f3d9" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">How BeyondSquare Maximized the Quality of Hire</h3></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5786fe3d elementor-align-center elementor-widget elementor-widget-button" data-id="5786fe3d" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://xobin.com/casestudy/beyondsquare-lateral-hiring-casestudy-with-xobin/?utm_source=home&amp;utm_medium=referral&amp;utm_campaign=xfoot" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">READ CASESTUDY</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-75d1ebc7 elementor-column elementor-col-33 elementor-inner-column" data-id="75d1ebc7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2d5b9f7 elementor-widget elementor-widget-image" data-id="2d5b9f7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="370" height="330" src="https://xobin.com/wp-content/uploads/2019/09/Personality.jpg" class="attachment-large size-large" alt="" srcset="https://xobin.com/wp-content/uploads/2019/09/Personality.jpg 370w, https://xobin.com/wp-content/uploads/2019/09/Personality-300x268.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-29cbaadb elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="29cbaadb" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">How Psychometric Testing Can Impact your Recruitment</h3></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-768b3eb5 elementor-align-center elementor-widget elementor-widget-button" data-id="768b3eb5" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://xobin.com/ebooks/psychometric-test/?utm_source=home&amp;utm_medium=referral&amp;utm_campaign=xfoot" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">DOWLOAD E-BOOK</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-3fcfb3c1 elementor-column elementor-col-33 elementor-inner-column" data-id="3fcfb3c1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6c81b5fa elementor-widget elementor-widget-image" data-id="6c81b5fa" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="370" height="330" src="https://xobin.com/wp-content/uploads/2019/09/Cheating.jpg" class="attachment-large size-large" alt="" srcset="https://xobin.com/wp-content/uploads/2019/09/Cheating.jpg 370w, https://xobin.com/wp-content/uploads/2019/09/Cheating-300x268.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-64ce233e elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="64ce233e" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">How Xobin Prevents Cheating in Online Assessments</h3></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-79b362aa elementor-align-center elementor-widget elementor-widget-button" data-id="79b362aa" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://xobin.com/blog/xobin-online-assessment-prevents-cheating/?utm_source=home&amp;utm_medium=referral&amp;utm_campaign=xfoot" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Read More</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-35d9eaf3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="35d9eaf3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2623b0b elementor-column elementor-col-100 elementor-top-column" data-id="2623b0b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2d0dc42e elementor-widget elementor-widget-spacer" data-id="2d0dc42e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-19c0df7c elementor-widget elementor-widget-spacer" data-id="19c0df7c" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5d1d1f13 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5d1d1f13" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a3ea2f elementor-column elementor-col-14 elementor-top-column" data-id="a3ea2f" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-7bed2b07 elementor-column elementor-col-14 elementor-top-column" data-id="7bed2b07" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7825a53a elementor-widget elementor-widget-image" data-id="7825a53a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="204" src="https://xobin.com/wp-content/uploads/2020/03/software-suggest.png" class="attachment-large size-large" alt="Software suggest" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-2638242c elementor-column elementor-col-14 elementor-top-column" data-id="2638242c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6ab18d1 elementor-widget elementor-widget-image" data-id="6ab18d1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="150" height="100" src="https://xobin.com/wp-content/uploads/2020/03/capterra.png" class="attachment-large size-large" alt="Capterra" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-49b93da elementor-column elementor-col-14 elementor-top-column" data-id="49b93da" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-77f832a elementor-widget elementor-widget-spacer" data-id="77f832a" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-26e18c59 elementor-widget elementor-widget-image" data-id="26e18c59" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="300" height="84" src="https://xobin.com/wp-content/uploads/2020/02/FinancesOnlineSeal.png" class="attachment-large size-large" alt="Finances online" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5bade88d elementor-widget elementor-widget-spacer" data-id="5bade88d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-2f8e335b elementor-column elementor-col-14 elementor-top-column" data-id="2f8e335b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2f3de8d5 elementor-widget elementor-widget-image" data-id="2f3de8d5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="150" height="100" src="https://xobin.com/wp-content/uploads/2020/03/Get-app.png" class="attachment-medium_large size-medium_large" alt="Getapp" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-22eafd9f elementor-column elementor-col-14 elementor-top-column" data-id="22eafd9f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-59620d6 elementor-hidden-phone elementor-widget elementor-widget-image" data-id="59620d6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="593" height="308" src="https://xobin.com/wp-content/uploads/2020/03/crozdesk.png" class="attachment-large size-large" alt="Crozdesk" srcset="https://xobin.com/wp-content/uploads/2020/03/crozdesk.png 593w, https://xobin.com/wp-content/uploads/2020/03/crozdesk-300x156.png 300w" sizes="(max-width: 593px) 100vw, 593px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-50282734 elementor-column elementor-col-14 elementor-top-column" data-id="50282734" data-element_type="column">
+			<div class="elementor-column-wrap">
+					<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6e8c9ef elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6e8c9ef" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-52fde12b elementor-column elementor-col-100 elementor-top-column" data-id="52fde12b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3a7def49 elementor-widget elementor-widget-spacer" data-id="3a7def49" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-764e847 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="764e847" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-333a33aa elementor-column elementor-col-100 elementor-top-column" data-id="333a33aa" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-31092dfe elementor-widget elementor-widget-spacer" data-id="31092dfe" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-48cfccf3 elementor-widget elementor-widget-heading" data-id="48cfccf3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">MAKE SMARTER HIRING DECISIONS</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-736a7fe9 elementor-widget elementor-widget-spacer" data-id="736a7fe9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-15d7513c elementor-align-center elementor-widget elementor-widget-button" data-id="15d7513c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://app.xobin.com/signup" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">START 14 DAY FREE TRIAL</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-42832f9d elementor-widget elementor-widget-spacer" data-id="42832f9d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		      			</div><!-- Content Area -->
+					</div>
+	</div>
+</div>
+  
+  
+  <!-- Footer -->
+<footer class="saspot-footer">
+      <div class="container">
+      <div class="footer-wrap">
+        <!-- Footer Widgets -->
+<div class="row">
+	<div class="saspot-widget col-xl-2 col-md-4 "><div class=" footer-widget vt-text-widget"><h3 class="widget-title">Company</h3><ul class=""><li><a href="https://xobin.com/aboutus/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Meet the Team</a></li><li><a href="https://xobin.com/blog/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Blog & Insights</a></li><li><a href="https://xobin.com/contact-us/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Contact Us</a></li></ul>
+<ul class=""><li><a href="https://xobin.com/terms?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Terms & Conditions</a></li><li><a href="https://xobin.com/gdpr?utm_source=homepage&utm_medium=referral&utm_campaign=xft">GDPR Readiness</a></li><li><a href="https://xobin.com/privacy?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Privacy Policy</a></li></ul><div class="clear"></div></div> <!-- end widget --></div><div class="saspot-widget col-xl-3 col-md-4 "><div class=" footer-widget widget-spacer-one vt-text-widget"><h3 class="widget-title">Products</h3><ul class=""><li><a href="https://xobin.com/products-pre-employment-skills-assessment-software/">Pre-Employment Testing </a></li>
+<li><a href="https://xobin.com/products/pre-recorded-video-interview-platform/">Video Interviews Software</a></li>
+<li><a href="https://xobin.com/campus-recruitment-software/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Campus Recruitment Software</a></li>
+<li><a href="https://xobin.com/products/coding-skills-assessment-software/">Coding Tests Platform</a></li>
+<li><a href="https://xobin.com/products/coding-interview-software">Coding Interview Software</a></li>
+<li><a href=" https://xobin.com/products/psychometric-testing-software/">Psychometric Testing Software</a></li>
+<li><a href="https://xobin.com/products/grey-ai-recruitment-software/">Grey-AI Engine</a></li>
+</ul>
+
+<div class="clear"></div></div> <!-- end widget --></div><div class="saspot-widget col-xl-2 col-md-4 "></div><div class="saspot-widget col-xl-2 col-md-4 "><div class=" footer-widget vt-text-widget"><h3 class="widget-title">Compare</h3><ul class=""><li><a href="https://xobin.com/hackerrank-alternative/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Xobin vs HackerRank</a></li>
+<li><a href="https://xobin.com/mettl-alternative/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Xobin vs Mettl</a></li>
+<li><a href="https://xobin.com/testdome-alternative/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Xobin vs Testdome</a></li>
+<li><a href="https://xobin.com/vervoe-alternative/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Xobin vs Vervoe</a></li>
+<li><a href="https://xobin.com/interviewmocha-alternative/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Xobin vs Mocha</a></li><li><a href="https://xobin.com/coderpad-alternative/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Xobin vs CoderPad</a></li>
+</ul><div class="clear"></div></div> <!-- end widget --></div><div class="saspot-widget  col-xl-3 col-md-4"><div class=" footer-widget vt-text-widget"><h3 class="widget-title">Resources</h3><ul class=""><li><a href="https://xobin.com/blog/talent-assessment-software/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">What is an Assessment Software ?</a></li>
+<li><a href="https://xobin.com/blog/online-assessment-platform-for-enterprises/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Assessments for Enterprises</a></li>
+<li><a href="https://xobin.com/blog/online-assessment-software-startups/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Assessments for Startups</a></li>
+<li><a href="https://xobin.com/blog/xobin-online-assessment-prevents-cheating/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Cheat Proof Online Assessments</a></li>
+<li><a href="https://xobin.com/ebooks/psychometric-test/?utm_source=homepage&utm_medium=referral&utm_campaign=xft">Psychometric Tests E-book</a></li>
+</ul><div class="clear"></div></div> <!-- end widget --></div></div>
+<!-- Footer Widgets -->
+      </div>
+    </div>
+        <div class="saspot-copyright">
+      <div class="container">
+        <!-- Copyright Bar -->
+<div class="row align-items-center">
+  <div class="col-md-4">
+  	  </div>
+  	  <div class="col-md-4 textcenter">
+  			    <p>© 2020. Xobin,Inc </a></p> <!-- SaaSpotWP -->
+  			  </div>
+		  <div class="col-md-4 textright">
+  			     <!-- SaaSpotWP -->
+  			  </div>
+	</div>
+<!-- Copyright Bar -->
+      </div>
+    </div>
+    </footer>
+    
+    <div class="saspot-back-top">
+  <a href="javascript:void(0);"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</div>
+<!-- SaaSpot Modal, Modal Video, Fade -->
+<div class="modal modal-video fade" id="SaaSpotVideoModal">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item saspot-video-iframe" id="ModalVideoWrap"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
